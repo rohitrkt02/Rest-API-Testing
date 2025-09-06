@@ -8,7 +8,6 @@ You can also verify APIs manually using **Postman**.
 
 ---
 
-## 📂 Project Structure
 
 
 ---
@@ -44,7 +43,7 @@ fetch("https://jsonplaceholder.typicode.com/posts", {
   .then(res => res.json())
   .then(data => console.log(data));
 
-🔗 Postman
+## Postman
 
 Import endpoints in Postman
 
