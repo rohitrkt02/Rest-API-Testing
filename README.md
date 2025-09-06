@@ -1,28 +1,31 @@
 # Rest-API-Testing
 
-A simple project for testing REST APIs with JavaScript.
-It uses fetch to send requests (GET, POST, PUT, PATCH, DELETE) and mock data from MOCK_DATA.json.
-You can also verify APIs manually using Postman.
+# Rest-API-Testing
 
-📂 Project Structure
-Rest-API-Testing/
-├── index.js         # Main script
-├── MOCK_DATA.json   # Mock test data
-├── package.json     # Dependencies
-└── package-lock.json
+A simple project for testing **REST APIs with JavaScript**.  
+It uses `fetch` to send requests (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`) and mock data from `MOCK_DATA.json`.  
+You can also verify APIs manually using **Postman**.
 
-⚡ Features
+---
 
-Test APIs with multiple HTTP methods
+## 📂 Project Structure
 
-Uses mock JSON data
 
-Compatible with Postman
+---
 
-🛠️ Setup
+## ⚡ Features
+- Test APIs with multiple HTTP methods  
+- Uses mock JSON data  
+- Compatible with Postman  
+
+---
+
+## 🛠️ Setup
+```bash
 git clone https://github.com/rohitrkt02/Rest-API-Testing.git
 cd Rest-API-Testing
 npm install
+
 
 
 Run:
