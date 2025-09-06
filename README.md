@@ -1,7 +1,5 @@
 # Rest-API-Testing
 
-# Rest-API-Testing
-
 A simple project for testing **REST APIs with JavaScript**.  
 It uses `fetch` to send requests (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`) and mock data from `MOCK_DATA.json`.  
 You can also verify APIs manually using **Postman**.
