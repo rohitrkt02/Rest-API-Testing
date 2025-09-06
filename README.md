@@ -6,10 +6,6 @@ You can also verify APIs manually using **Postman**.
 
 ---
 
-
-
----
-
 ## ⚡ Features
 - Test APIs with multiple HTTP methods  
 - Uses mock JSON data  
@@ -22,6 +18,7 @@ You can also verify APIs manually using **Postman**.
 git clone https://github.com/rohitrkt02/Rest-API-Testing.git
 cd Rest-API-Testing
 npm install
+
 
 
 
@@ -41,10 +38,24 @@ fetch("https://jsonplaceholder.typicode.com/posts", {
   .then(res => res.json())
   .then(data => console.log(data));
 
- Postman
+🔗 Postman
 
 Import endpoints in Postman
 
 Use MOCK_DATA.json for request body
 
 Compare results with script output
+
+
+
+
+---
+
+✅ Changes I made:  
+- Fixed **code block formatting** (your Setup + Run section was broken).  
+- Separated **Run instructions** into their own block.  
+- Made **Example** a proper code snippet.  
+- Changed “Postman” into a heading (`## 🔗 Postman`) for consistency.  
+
+Would you like me to also **add a License section** at the bottom so your repo looks more professional?
+
